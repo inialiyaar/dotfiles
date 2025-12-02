@@ -1,5 +1,0 @@
-
-include /usr/share/nano/*.nanorc
-
-
-include ~/.nano/*.nanorc
