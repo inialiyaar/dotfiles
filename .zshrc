@@ -35,3 +35,9 @@ setopt prompt_subst
 
 PROMPT='${BLUE}inialiyaar${RESET} ${BLUE}%~${RESET} $(git_branch) $ '
 zle_highlight+=(suffix:fg=120)
+
+HISTFILE=~/.zsh_history
+HISTSIZE=50000
+SAVEHIST=50000
+setopt inc_append_history
+setopt share_history
